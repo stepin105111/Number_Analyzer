@@ -8,7 +8,7 @@ int main()
    printf("---------Discover the amazing characteristics of your number---------\n\n");
    while(1)
    {
-       result=characteristics__available();
+       result=characteristics_available(void);
        if(result!=0)
        {
            characteristics(result);
