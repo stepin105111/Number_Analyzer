@@ -1,6 +1,6 @@
 #include "numbers.h"
 enum characteristics{ PRIME=1, ARMSTRONG, EVEN_ODD, PALINDROME, POWER, EXIT };
-int characteristics_available(void);
+int characteristics_available();
 int characteristics(int);
 int main()
 {
@@ -8,14 +8,14 @@ int main()
    printf("---------Discover the amazing characteristics of your number---------\n\n");
    while(1)
    {
-       result=characteristics_available(void);
+       result=characteristics_available();
        if(result!=0)
        {
            characteristics(result);
        }
    }
 }
-int characteristics_available(void)
+int characteristics_available()
 {
     int index;
     printf("Check whether your number is \n 1)Prime \n 2)Armstrong \n 3)Even/Odd \n 4)Palindrome\n ");
