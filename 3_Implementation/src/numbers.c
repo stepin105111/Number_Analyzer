@@ -1,4 +1,4 @@
-#include "properties_number.h"
+#include "numbers.h"
 int prime(int number)
 {
     int flag=1, half, iteration ;
